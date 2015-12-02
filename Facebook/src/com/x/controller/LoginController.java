@@ -31,8 +31,8 @@ public class LoginController extends HttpServlet {
       protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		uname=request.getParameter("username");        //new work
 		upass=request.getParameter("password");
-		System.out.println(uname);
-		System.out.println(upass);
+//		System.out.println(uname);
+//		System.out.println(upass);
 			
 		try {
 			 String sql="SELECT * FROM facebook.registration where username='"+uname+"'and password='"+upass+"'";
