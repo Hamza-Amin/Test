@@ -31,7 +31,7 @@ public class LoginController extends HttpServlet {
       protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		uname=request.getParameter("username");        //new work
 		upass=request.getParameter("password");
-//		System.out.println(uname);
+//		System.out.println(uname);  my name is hamza
 //		System.out.println(upass);
 			
 		try {
